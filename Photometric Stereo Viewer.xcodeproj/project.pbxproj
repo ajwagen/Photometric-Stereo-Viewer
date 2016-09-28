@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E57419C91D96BDBA003ACE43 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E57419C81D96BDBA003ACE43 /* main.m */; };
+		E57419CC1D96BDBA003ACE43 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E57419CB1D96BDBA003ACE43 /* AppDelegate.m */; };
+		E57419CF1D96BDBA003ACE43 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E57419CE1D96BDBA003ACE43 /* ViewController.m */; };
+		E57419D21D96BDBA003ACE43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E57419D01D96BDBA003ACE43 /* Main.storyboard */; };
+		E57419D41D96BDBA003ACE43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E57419D31D96BDBA003ACE43 /* Assets.xcassets */; };
+		E57419D71D96BDBA003ACE43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E57419D51D96BDBA003ACE43 /* LaunchScreen.storyboard */; };
+		E57419E21D96BDBB003ACE43 /* Photometric_Stereo_ViewerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E57419E11D96BDBB003ACE43 /* Photometric_Stereo_ViewerTests.m */; };
+		E57419ED1D96BDBB003ACE43 /* Photometric_Stereo_ViewerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E57419EC1D96BDBB003ACE43 /* Photometric_Stereo_ViewerUITests.m */; };
+		E57419FC1D96BDEE003ACE43 /* cat_l.png in Resources */ = {isa = PBXBuildFile; fileRef = E57419FA1D96BDEE003ACE43 /* cat_l.png */; };
+		E57419FD1D96BDEE003ACE43 /* cat_r.png in Resources */ = {isa = PBXBuildFile; fileRef = E57419FB1D96BDEE003ACE43 /* cat_r.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E57419DE1D96BDBB003ACE43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E57419BC1D96BDBA003ACE43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E57419C31D96BDBA003ACE43;
+			remoteInfo = "Photometric Stereo Viewer";
+		};
+		E57419E91D96BDBB003ACE43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E57419BC1D96BDBA003ACE43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E57419C31D96BDBA003ACE43;
+			remoteInfo = "Photometric Stereo Viewer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E57419C41D96BDBA003ACE43 /* Photometric Stereo Viewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Photometric Stereo Viewer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E57419C81D96BDBA003ACE43 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E57419CA1D96BDBA003ACE43 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E57419CB1D96BDBA003ACE43 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E57419CD1D96BDBA003ACE43 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E57419CE1D96BDBA003ACE43 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E57419D11D96BDBA003ACE43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E57419D31D96BDBA003ACE43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E57419D61D96BDBA003ACE43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E57419D81D96BDBA003ACE43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E57419DD1D96BDBB003ACE43 /* Photometric Stereo ViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Photometric Stereo ViewerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E57419E11D96BDBB003ACE43 /* Photometric_Stereo_ViewerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Photometric_Stereo_ViewerTests.m; sourceTree = "<group>"; };
+		E57419E31D96BDBB003ACE43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E57419E81D96BDBB003ACE43 /* Photometric Stereo ViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Photometric Stereo ViewerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E57419EC1D96BDBB003ACE43 /* Photometric_Stereo_ViewerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Photometric_Stereo_ViewerUITests.m; sourceTree = "<group>"; };
+		E57419EE1D96BDBB003ACE43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E57419FA1D96BDEE003ACE43 /* cat_l.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cat_l.png; sourceTree = "<group>"; };
+		E57419FB1D96BDEE003ACE43 /* cat_r.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cat_r.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E57419C11D96BDBA003ACE43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E57419DA1D96BDBB003ACE43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E57419E51D96BDBB003ACE43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E57419BB1D96BDBA003ACE43 = {
+			isa = PBXGroup;
+			children = (
+				E57419C61D96BDBA003ACE43 /* Photometric Stereo Viewer */,
+				E57419E01D96BDBB003ACE43 /* Photometric Stereo ViewerTests */,
+				E57419EB1D96BDBB003ACE43 /* Photometric Stereo ViewerUITests */,
+				E57419C51D96BDBA003ACE43 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E57419C51D96BDBA003ACE43 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E57419C41D96BDBA003ACE43 /* Photometric Stereo Viewer.app */,
+				E57419DD1D96BDBB003ACE43 /* Photometric Stereo ViewerTests.xctest */,
+				E57419E81D96BDBB003ACE43 /* Photometric Stereo ViewerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E57419C61D96BDBA003ACE43 /* Photometric Stereo Viewer */ = {
+			isa = PBXGroup;
+			children = (
+				E57419CA1D96BDBA003ACE43 /* AppDelegate.h */,
+				E57419CB1D96BDBA003ACE43 /* AppDelegate.m */,
+				E57419CD1D96BDBA003ACE43 /* ViewController.h */,
+				E57419CE1D96BDBA003ACE43 /* ViewController.m */,
+				E57419D01D96BDBA003ACE43 /* Main.storyboard */,
+				E57419D31D96BDBA003ACE43 /* Assets.xcassets */,
+				E57419D51D96BDBA003ACE43 /* LaunchScreen.storyboard */,
+				E57419D81D96BDBA003ACE43 /* Info.plist */,
+				E57419C71D96BDBA003ACE43 /* Supporting Files */,
+			);
+			path = "Photometric Stereo Viewer";
+			sourceTree = "<group>";
+		};
+		E57419C71D96BDBA003ACE43 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E57419FA1D96BDEE003ACE43 /* cat_l.png */,
+				E57419FB1D96BDEE003ACE43 /* cat_r.png */,
+				E57419C81D96BDBA003ACE43 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E57419E01D96BDBB003ACE43 /* Photometric Stereo ViewerTests */ = {
+			isa = PBXGroup;
+			children = (
+				E57419E11D96BDBB003ACE43 /* Photometric_Stereo_ViewerTests.m */,
+				E57419E31D96BDBB003ACE43 /* Info.plist */,
+			);
+			path = "Photometric Stereo ViewerTests";
+			sourceTree = "<group>";
+		};
+		E57419EB1D96BDBB003ACE43 /* Photometric Stereo ViewerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E57419EC1D96BDBB003ACE43 /* Photometric_Stereo_ViewerUITests.m */,
+				E57419EE1D96BDBB003ACE43 /* Info.plist */,
+			);
+			path = "Photometric Stereo ViewerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E57419C31D96BDBA003ACE43 /* Photometric Stereo Viewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E57419F11D96BDBB003ACE43 /* Build configuration list for PBXNativeTarget "Photometric Stereo Viewer" */;
+			buildPhases = (
+				E57419C01D96BDBA003ACE43 /* Sources */,
+				E57419C11D96BDBA003ACE43 /* Frameworks */,
+				E57419C21D96BDBA003ACE43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Photometric Stereo Viewer";
+			productName = "Photometric Stereo Viewer";
+			productReference = E57419C41D96BDBA003ACE43 /* Photometric Stereo Viewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E57419DC1D96BDBB003ACE43 /* Photometric Stereo ViewerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E57419F41D96BDBB003ACE43 /* Build configuration list for PBXNativeTarget "Photometric Stereo ViewerTests" */;
+			buildPhases = (
+				E57419D91D96BDBB003ACE43 /* Sources */,
+				E57419DA1D96BDBB003ACE43 /* Frameworks */,
+				E57419DB1D96BDBB003ACE43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E57419DF1D96BDBB003ACE43 /* PBXTargetDependency */,
+			);
+			name = "Photometric Stereo ViewerTests";
+			productName = "Photometric Stereo ViewerTests";
+			productReference = E57419DD1D96BDBB003ACE43 /* Photometric Stereo ViewerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E57419E71D96BDBB003ACE43 /* Photometric Stereo ViewerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E57419F71D96BDBB003ACE43 /* Build configuration list for PBXNativeTarget "Photometric Stereo ViewerUITests" */;
+			buildPhases = (
+				E57419E41D96BDBB003ACE43 /* Sources */,
+				E57419E51D96BDBB003ACE43 /* Frameworks */,
+				E57419E61D96BDBB003ACE43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E57419EA1D96BDBB003ACE43 /* PBXTargetDependency */,
+			);
+			name = "Photometric Stereo ViewerUITests";
+			productName = "Photometric Stereo ViewerUITests";
+			productReference = E57419E81D96BDBB003ACE43 /* Photometric Stereo ViewerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E57419BC1D96BDBA003ACE43 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Andrew Wagenmaker";
+				TargetAttributes = {
+					E57419C31D96BDBA003ACE43 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = G5F9VEKL2B;
+					};
+					E57419DC1D96BDBB003ACE43 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = G5F9VEKL2B;
+						TestTargetID = E57419C31D96BDBA003ACE43;
+					};
+					E57419E71D96BDBB003ACE43 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = G5F9VEKL2B;
+						TestTargetID = E57419C31D96BDBA003ACE43;
+					};
+				};
+			};
+			buildConfigurationList = E57419BF1D96BDBA003ACE43 /* Build configuration list for PBXProject "Photometric Stereo Viewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E57419BB1D96BDBA003ACE43;
+			productRefGroup = E57419C51D96BDBA003ACE43 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E57419C31D96BDBA003ACE43 /* Photometric Stereo Viewer */,
+				E57419DC1D96BDBB003ACE43 /* Photometric Stereo ViewerTests */,
+				E57419E71D96BDBB003ACE43 /* Photometric Stereo ViewerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E57419C21D96BDBA003ACE43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E57419D71D96BDBA003ACE43 /* LaunchScreen.storyboard in Resources */,
+				E57419D41D96BDBA003ACE43 /* Assets.xcassets in Resources */,
+				E57419D21D96BDBA003ACE43 /* Main.storyboard in Resources */,
+				E57419FD1D96BDEE003ACE43 /* cat_r.png in Resources */,
+				E57419FC1D96BDEE003ACE43 /* cat_l.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E57419DB1D96BDBB003ACE43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E57419E61D96BDBB003ACE43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E57419C01D96BDBA003ACE43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E57419CF1D96BDBA003ACE43 /* ViewController.m in Sources */,
+				E57419CC1D96BDBA003ACE43 /* AppDelegate.m in Sources */,
+				E57419C91D96BDBA003ACE43 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E57419D91D96BDBB003ACE43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E57419E21D96BDBB003ACE43 /* Photometric_Stereo_ViewerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E57419E41D96BDBB003ACE43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E57419ED1D96BDBB003ACE43 /* Photometric_Stereo_ViewerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E57419DF1D96BDBB003ACE43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E57419C31D96BDBA003ACE43 /* Photometric Stereo Viewer */;
+			targetProxy = E57419DE1D96BDBB003ACE43 /* PBXContainerItemProxy */;
+		};
+		E57419EA1D96BDBB003ACE43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E57419C31D96BDBA003ACE43 /* Photometric Stereo Viewer */;
+			targetProxy = E57419E91D96BDBB003ACE43 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E57419D01D96BDBA003ACE43 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E57419D11D96BDBA003ACE43 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E57419D51D96BDBA003ACE43 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E57419D61D96BDBA003ACE43 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E57419EF1D96BDBB003ACE43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E57419F01D96BDBB003ACE43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E57419F21D96BDBB003ACE43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Photometric Stereo Viewer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ajwagenmaker.Photometric-Stereo-Viewer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E57419F31D96BDBB003ACE43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Photometric Stereo Viewer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ajwagenmaker.Photometric-Stereo-Viewer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E57419F51D96BDBB003ACE43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Photometric Stereo ViewerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ajwagenmaker.Photometric-Stereo-ViewerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Photometric Stereo Viewer.app/Photometric Stereo Viewer";
+			};
+			name = Debug;
+		};
+		E57419F61D96BDBB003ACE43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Photometric Stereo ViewerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ajwagenmaker.Photometric-Stereo-ViewerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Photometric Stereo Viewer.app/Photometric Stereo Viewer";
+			};
+			name = Release;
+		};
+		E57419F81D96BDBB003ACE43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Photometric Stereo ViewerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ajwagenmaker.Photometric-Stereo-ViewerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Photometric Stereo Viewer";
+			};
+			name = Debug;
+		};
+		E57419F91D96BDBB003ACE43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Photometric Stereo ViewerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ajwagenmaker.Photometric-Stereo-ViewerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Photometric Stereo Viewer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E57419BF1D96BDBA003ACE43 /* Build configuration list for PBXProject "Photometric Stereo Viewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E57419EF1D96BDBB003ACE43 /* Debug */,
+				E57419F01D96BDBB003ACE43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E57419F11D96BDBB003ACE43 /* Build configuration list for PBXNativeTarget "Photometric Stereo Viewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E57419F21D96BDBB003ACE43 /* Debug */,
+				E57419F31D96BDBB003ACE43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E57419F41D96BDBB003ACE43 /* Build configuration list for PBXNativeTarget "Photometric Stereo ViewerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E57419F51D96BDBB003ACE43 /* Debug */,
+				E57419F61D96BDBB003ACE43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E57419F71D96BDBB003ACE43 /* Build configuration list for PBXNativeTarget "Photometric Stereo ViewerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E57419F81D96BDBB003ACE43 /* Debug */,
+				E57419F91D96BDBB003ACE43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E57419BC1D96BDBA003ACE43 /* Project object */;
+}
