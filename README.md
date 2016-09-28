@@ -1,7 +1,9 @@
 # Photometric-Stereo-Viewer
 
 Photometric Stereo Viewer
+
 Author: Andrew Wagenmaker (ajwagen@umich.edu)
+
 Date: September 28, 2016
 
 Description:
